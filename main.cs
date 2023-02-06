@@ -10,12 +10,6 @@ class Program
         driver.mainMenu(auction);
     }
 
-
-
-
-
-
-
     public class Lot
     {
         private static int lot = 1001;
@@ -141,9 +135,6 @@ class Program
         public void markSold(Lot lot)
         {
             lot.markSold();
-
-            //Console.WriteLine();
-
         }
         public void mainMenu(List<Lot> lots)
         {
@@ -170,9 +161,6 @@ class Program
                         break;
                     case 1:
                         addItem(lots);
-                        //if(lots.Count==1){
-                        // currentLot=lots[0];
-                        // }
                         break;
                     case 2:
                         if (currentLot == null)
